@@ -1,0 +1,15 @@
+{
+  "name": "GrantTracker",
+  "desc": "Grant and Fund Tracking Contract",
+  "methods": [
+    {
+      "name": "initialize",
+      "args": [
+        { "type": "address", "name": "team_address" },
+        { "type": "uint64", "name": "required_approvals" },
+        { "type": "uint64", "name": "total_voters" }
+      ],
+      "returns": { "type": "void" }
+    }
+  ]
+}

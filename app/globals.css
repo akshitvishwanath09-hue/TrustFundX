@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #F7F9FC;
+  --color-surface: #FFFFFF;
+  --color-primary: #2563EB;
+  --color-secondary: #4F46E5;
+  --color-accent: #22D3EE;
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #475569;
+  --color-border: #E2E8F0;
+
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+
+  --shadow-premium: 0 8px 32px rgba(37, 99, 235, 0.08);
+  --shadow-premium-hover: 0 12px 48px rgba(37, 99, 235, 0.12);
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text-primary antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-surface/60 backdrop-blur-[12px] border border-white/60 shadow-premium;
+  }
+
+  .glass-morphism {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gradient-border-blue-indigo {
+    border: 1px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+      linear-gradient(to bottom right, #2563EB, #4F46E5) border-box;
+  }
+
+  .glow-cyan {
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.2);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full border-2 border-solid border-background hover:bg-gray-400;
+}

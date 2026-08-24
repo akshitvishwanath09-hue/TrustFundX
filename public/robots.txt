@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://trustfundx.vercel.app/sitemap.xml
+
+# Crawl delay for courtesy
+Crawl-delay: 1

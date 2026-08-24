@@ -1,0 +1,14 @@
+/* TEAM */
+Name: TrustFundX Team
+Site: https://trustfundx.vercel.app
+Location: Global
+
+/* SITE */
+Last update: 2026/03/03
+Standards: HTML5, CSS3, JavaScript
+Components: Next.js, React, TypeScript
+Software: Visual Studio Code
+
+/* THANKS */
+Built with Next.js and powered by Algorand blockchain
+Special thanks to the open-source community
