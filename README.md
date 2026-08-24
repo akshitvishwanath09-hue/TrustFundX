@@ -37,6 +37,20 @@
 
 **TrustFundX** is a decentralized grant management platform that brings transparency and accountability to student project funding. Built on the Algorand blockchain, it enables milestone-based fund disbursement with DAO-style governance, ensuring that funds are released only when project milestones are achieved and approved by voters.
 
+## 👥 Team Members
+
+| Name | Role | Contribution |
+|------|------|--------------|
+| Akshit Vishwanath | Full Stack & Blockchain | Frontend, backend and Algorand integration |
+| Aashritha Yedla | Smart Contract / Backend | Smart contract and backend development |
+| Bannnela Brijesh | Frontend / UI-UX | Dashboard, frontend and UI/UX development |
+
+### Team Contributions
+
+- **Akshit Vishwanath** – Full-stack development, blockchain integration and API integration.
+- **Aashritha Yedla** – Smart contract development and backend functionality.
+- **Bannnela Brijesh** – Frontend development, dashboard and UI/UX.
+
 ### Why TrustFundX?
 
 - ✅ **Transparent Funding**: All transactions recorded on Algorand blockchain
